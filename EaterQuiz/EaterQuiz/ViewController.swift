@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         sushibonus = Int(sender.value)
     }
     
-    @IBAction func myButton(_ sender: Any) {
+    @IBAction func myButton(_ sender: UIButton) {
         let name = myName.text!
                 total = pizza + sushi + taco + hamburger + broccoli + sushibonus
                 if(total <= 1) {

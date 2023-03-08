@@ -116,8 +116,8 @@
                                     <action selector="myRating:" destination="BYZ-38-t0r" eventType="valueChanged" id="OpN-Ro-AaZ"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uC-WM-z3m">
-                                <rect key="frame" x="168" y="644" width="57" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uC-WM-z3m">
+                                <rect key="frame" x="80" y="644" width="240" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -128,6 +128,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Submit"/>
+                                <connections>
+                                    <action selector="myButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atg-YD-daf"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9jM-Zh-XpM">
                                 <rect key="frame" x="80" y="673" width="240" height="128"/>
@@ -149,6 +152,7 @@
                     <connections>
                         <outlet property="myImage" destination="9jM-Zh-XpM" id="ib2-s7-dPf"/>
                         <outlet property="myName" destination="ggQ-9E-rU9" id="gcX-bQ-EMW"/>
+                        <outlet property="myTotal" destination="5uC-WM-z3m" id="AoF-cf-57Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
