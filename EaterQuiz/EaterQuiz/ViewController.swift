@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var total:Int = 0
     var sushibonus:Int = 0
 
+    
     @IBOutlet weak var myName: UITextField!
     
     @IBOutlet weak var myTotal: UILabel!
